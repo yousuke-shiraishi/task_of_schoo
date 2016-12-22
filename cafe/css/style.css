@@ -1,10 +1,7 @@
 
   html,body {
-  /*position: relative;*/
   width: 100%;
   height:auto;
-word-break:break-all;
-
 }
 header h1 {
     display: none;
@@ -30,10 +27,7 @@ header div nav button{
   display: block;
   position: fixed;
   top: 2%;
-    right: 4%;
-  /*bottom: 14%;*/
-  /*margin-right: : 5%;*/
-  /*padding-right: 5%;*/
+  right: 4%;
   width: 3rem;
   height: 3rem;
 }
@@ -111,7 +105,6 @@ footer{
   height: 10%;
   }
 
-
 .leftbox{
   display: block;
   width: 85%;
@@ -124,18 +117,15 @@ footer{
 
 .leftbox figure img{
 width: 80%;
-
 text-align: center;
-
 }
+
 .menulist{
   font-size: 1.0rem;
   line-height: 1.5rem;
   width: 70%;
   margin: 0.3rem auto;
   font-feature-settings : "palt";
-
-
   }
 .menulist p{
   margin-top: -0.5rem;
@@ -148,7 +138,6 @@ text-align: center;
 section#Access article p{
   text-align: center;
 }
-
 
 address p{
 font-size: 0.5rem;
@@ -180,6 +169,7 @@ height: 100%;
 margin-top: 1rem;
   margin-bottom: 1rem;
   }
+
 #contactUs p {
     margin-bottom: 0.6rem;
 }
@@ -188,15 +178,16 @@ margin-top: 1rem;
     width: 80%;
     margin:0 auto;
 }
+
 #contactUs th {
-    width: 25%; /* 5回目で修正 */
+    width: 25%;
     text-align: right;
     font-size: 0.7rem;
     font-weight: normal;
     padding-top: 0.3rem;
 }
 #contactUs td {
-    width: 55%; /* 5回目で修正 */
+    width: 55%;
     padding-bottom: 0.5rem;
     vertical-align: top;
 }
@@ -250,7 +241,6 @@ footer ul{
   width: 100%;
   position: fixed;
   padding-top: 4rem;
-
   cursor: pointer;
   margin-left: -200%;
   transition-duration:1s;
@@ -270,7 +260,6 @@ footer ul{
 #drawer .showMenue {
   margin-left: 0%;
 }
-
 
 #gototop {
   z-index: 20000;
