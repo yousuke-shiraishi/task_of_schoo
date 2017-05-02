@@ -191,16 +191,20 @@ margin-top: 1rem;
     padding-bottom: 0.5rem;
     vertical-align: top;
 }
-textarea {
-    height: 8rem;
-}
+
 input[type="text"] {
     height: 1.5rem;
-}
-input[type="text"], textarea {
+    background-color: #fff;
     width: 100%;
     box-sizing:border-box;
     border-style: none;
+}
+
+textarea {
+  width: 100%;
+  box-sizing:border-box;
+  border-style: none;
+  height: 8rem;
 }
 input[type="submit"] {
   width: 30%;
@@ -214,7 +218,11 @@ input[type="submit"] {
   border-style: none;
   cursor: pointer;
   margin-bottom: 40%;
+}
 
+input[type="text"]:focus,
+textarea:focus {
+	background: #faf4e2;
 }
 .footerlogo{
   margin-left:5%;
