@@ -1,0 +1,267 @@
+html,body {
+width: 960px;
+height:auto;
+margin: 0 auto;
+}
+body {
+      font-family: sans-serif;
+    background-image: url(../images/side01wide.png),url(../images/side02wide.png),url(../images/backgroundimg01.png);
+    background-position:left,right ;
+    background-repeat: repeat-y,repeat-y,repeat;
+    background-size:auto,auto,auto;
+      }
+header div nav button{
+  display: none;
+}
+div#wrapper{
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+}
+h1{
+display: none;
+      }
+
+h2{
+  width:50%;widestyle.css
+   font-size:1.0rem;
+   font-weight:lighter;
+   text-decoration:none;
+   display:block;
+   text-align:center;
+   padding:1rem 0rem 1rem 0rem;
+   margin: 0.8rem auto;
+   color:#fff;
+   background-color:rgb(226, 110, 27);
+   border-radius:5px;
+        }
+
+header{
+  width: 960px;
+  height: 71px;
+    }
+header div nav{
+  position: fixed;
+  background-color: gray;
+  width:960px;
+  height:71px;
+  top:0;
+  margin: 0 auto;
+
+
+}
+
+header div nav div ul{
+top:41px;
+overflow: hidden;
+}
+header div nav div#drawer ul li{
+
+ width:192px;
+ height:33px;
+float: left;
+}
+header div nav div#drawer ul li a{
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+header div nav div#drawer ul li a img{
+  width: 100%;
+  height: auto;
+}
+
+article section#Top p img{
+  top: 74px;
+  width: 100%;
+  height:auto;
+  z-index: 10;
+}
+/**/
+  #open {
+display: none;
+}
+
+article section#About p img#kazari{
+  display: block;
+  width:160px;
+  margin : 1rem auto;
+}
+.disclipt {
+  margin: 0 auto;
+  /*margin-bottom: 2rem;*/
+ margin-left: -10px
+  width: 100%;
+  height: auto;
+  text-align: center;
+  }
+.disclipt p{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  line-height: 1rem;
+  font-feature-settings : "palt";
+
+}
+
+.floatbox{
+  width:600px;
+  height: auto;
+  float:none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+.leftbox{
+  font-size: 16px;
+  line-height: 1.5;
+  width: 200px;
+  height:auto;
+  margin: auto;
+  text-align: center;
+  float:left;
+  margin-right: 20px;
+}
+
+.leftbox figure img{
+ width: 150%;
+ height: auto;
+ text-align: center;
+}
+
+div.floatbox  div.menulist{
+  font-size: 16px;
+  line-height: 1.5rem;
+  width: 250px;
+  height:auto;
+  font-feature-settings : "palt";
+  float:right;
+  vertical-align: middle;
+  /*margin-right: 70px;*/
+  }
+
+
+
+div.floatbox div.menulist p{
+  vertical-align: middle;
+  }
+
+address{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section#Access article p{
+  text-align: center;
+}
+
+address p{
+  margin-top: 15px;
+font-size: 0.5rem;
+line-height: 0.6rem;
+text-align: center;
+}
+section address div.ggmap {
+text-align: center;
+padding-top: 50px;
+margin: 0 auto;
+width: 100%;
+height:auto;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+
+width: 70%;
+height: auto;
+}
+/*お問合わせフォーム*/
+section#contactUs {
+  width:100%;
+  height: auto;
+ margin: 15px;
+ margin-top: 50px;
+  }
+
+section#contactUs p {
+    margin-bottom: 0.6rem;
+}
+
+section#contactUs table {
+    width: 80%;
+    margin:0 auto;
+}
+
+section#contactUs th {
+    width: 25%;
+    text-align: right;
+    font-size: 0.7rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+section#contactUs td {
+    width: 55%;
+    padding-bottom: 0.5rem;
+    vertical-align: top;
+}
+section#contactUs form table tr td textarea {
+    height: 8rem;
+}
+input[type="text"] {
+    height: 1.5rem;
+}
+input[type="text"], textarea {
+    width: 100%;
+    box-sizing:border-box;
+    border-style: none;
+}
+input[type="submit"] {
+  width: 30%;
+  line-height: 1.6rem;
+  height: 1.6rem;
+  padding-left: 1rem;
+  background-color: #B8FFBC;
+  color: #31B25D;
+  font-size: 0.8rem;
+  letter-spacing: 1rem;
+  border-style: none;
+  cursor: pointer;
+  margin-bottom: 40%;
+}
+
+
+section form{
+padding: 30px 90px;
+
+}
+footer{
+  background-color: rgb(241, 220, 217);
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  }
+
+
+.footerlogo{
+  left:200px;
+  margin-left:40px;
+  margin-top: 2%;
+  width: 40px;
+  height:40px;
+  float:left;
+}
+footer div#gototop a{
+  display: none;
+}
+footer small  {
+      display: block;
+      padding: 0rem;
+      font-size: 0.7rem;
+      clear: both;
+      text-align: center;
+  }

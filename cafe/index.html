@@ -4,50 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>渋カフェにようこそ</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen and (min-width: 0px) and (max-device-width: 959px)">
+  <link rel="stylesheet" href="css/widestyle.css" type="text/css" media="screen and (min-width:960x)">
 </head>
-
 <body>
+  <div id="wrapper">
   <header>
     <div>
       <nav>
         <h1>sibucafe</h1>
               <p><img src="images/sibucafemark.png" alt=""></p>
-        <button><img id="open" src="images/hanbargermenu.png" alt=""></button>
+        <button><img id="open" src="images/hanbargermenu.png" alt="ハンバーガーメニュー"></button>
            <!-- <button id="open">&#926;</button> -->
-          <div id="drawer">
+        <div id="drawer" class="drawer-menu" >
           <ul>
-            <li><a href="#Top"><img src="images/topbar.png" alt=""></a></li>
-            <li><a href="#About"><img src="images/aboutbar.png" alt=""></a></li>
-            <li><a href="#Menu"><img src="images/menubar.png" alt=""></a></li>
-            <li><a href="#Access"><img src="images/accessbar.png" alt=""></a></li>
-            <li><a href="#contactUs"><img src="images/contactus.png" alt=""></a></li>
+          <li><a href="#Top"><img src="images/topbar.png" alt="TOPへのリンク画像"></a></li>
+          <li><a href="#About"><img src="images/aboutbar.png" alt="ABOUTへのリンク画像"></a></li>
+          <li><a href="#Menu"><img src="images/menubar.png" alt="メニューへのリンク画像"></a></li>
+          <li><a href="#Access"><img src="images/accessbar.png" alt="アクセスへのリンク画像"></a></li>
+          <li><a href="#contactUs"><img src="images/contactus.png" alt="お問い合わせへのリンク画像"></a></li>
           </ul>
         </div>
-    </nav>
+     </nav>
   </div>
   </header>
   <main>
 <article>
-<section id ="Top">
-  <p><img src="images/headimg.jpg" alt="ロゴマーク"></p>
-</section>
-<section id="About" class="aboutarticle">
-  <p><img id="kazari" src="images/kazari.svg" alt="ロゴマーク"></p>
-<div class="disclipt">
-  <p>渋谷道玄坂を登ったところにあるカフェレストラン。</p> <p>豆は全てフェアトレード。
-  バリスタが淹れるコーヒーを楽しみながら、</p><p>ゆっくり過ごせる空間をご用意しております。</p><p>
-  お客様に最高のくつろぎを味わっていただくため</p><p>マスター店員ともども最高のおもてなしで御接客いたします。</p>
-  <p>また来たくなる珈琲店それがわたくしたちの理想です。</p>
-</div>
-</section>
+   <section id ="Top">
+       <p><img src="images/headimg.jpg" alt="ロゴマーク"></p>
+   </section>
+     <section id="About">
+       <p><img id="kazari" src="images/kazari.svg" alt="ロゴマーク"></p>
+       <div class="disclipt">
+      <p>渋谷道玄坂を登ったところにあるカフェレストラン。</p> <p>豆は全てフェアトレード。
+      バリスタが淹れるコーヒーを楽しみながら、</p><p>ゆっくり過ごせる空間をご用意しております。</p><p>
+      お客様に最高のくつろぎを味わっていただくため</p><p>マスター店員ともども最高のおもてなしで御接客いたします。</p>
+      <p>また来たくなる珈琲店それがわたくしたちの理想です。</p>
+      </div>
+     </section>
 </article>
 <article>
 <section id="Menu">
   <h2>メニュー</h2>
-
     <ul>
     <li>
       <div class="floatbox">
@@ -108,15 +108,13 @@
       <div class="leftbox">
         <figure><img src="images/sifonimg.png" alt="">
         </figure>
-          </div>
+     </div>
       <div id="sifondis" class="menulist">
           <p>珈琲によく合う柔らかな生地と生クリームのまろやかさシフォンケーキの
             ふわふわ食感をお楽しみください。</p>
             <p>・シフォンケーキ: 450円</p>
       </div>
     </div>
-    </li>
-    <li>
     </li>
     <li>
   <div class="floatbox">
@@ -211,6 +209,6 @@ $(function(){
     });
 });
 </script>
-
+</div>
 </body>
 </html>
